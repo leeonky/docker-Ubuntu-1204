@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build --rm -t leeonky/ubuntu-1604 .
+sudo docker build --rm -t leeonky/os-base:ubuntu .
