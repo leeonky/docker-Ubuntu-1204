@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 ####### source list ######
-#ADD sources.list /etc/apt/sources.list
+ADD sources.list /etc/apt/sources.list
 
 #netbase tcp/ip support
 #locales-all all languages utf-8 encoding
