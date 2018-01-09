@@ -16,6 +16,7 @@ RUN apt-get update && \
 	locales-all \
 	nfs-common \
 	locales \
+	tzdata \
 	curl \
 	&& apt-get clean \
 	&& locale-gen en_US && locale-gen en_US.UTF-8 && update-locale && localedef --no-archive -i en_US -f UTF-8 en_US.UTF-8
